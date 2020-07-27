@@ -61,7 +61,5 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
-  "resolutions": {
-    "xstate": "4.10.0"
-  }
+
 }
