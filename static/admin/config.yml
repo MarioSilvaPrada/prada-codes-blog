@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: thomaswang/gatsby-personal-starter-blog
+  repo: MarioSilvaPrada/prada-codes-blog
 
 media_folder: content/assets
 public_folder: ../assets
