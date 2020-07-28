@@ -46,7 +46,9 @@
     "prettier": "^1.17.0"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [ "gatsby" ],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
@@ -60,6 +62,5 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-
+  }
 }

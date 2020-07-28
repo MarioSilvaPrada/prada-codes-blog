@@ -4,7 +4,7 @@ module.exports = {
     title: `Gatsby Starter Personal Blog`,
     author: `Gatsby`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `prada-codes.netlify.app`,
+    siteUrl: `https://prada-codes.netlify.app`,
     social: {
       twitter: `gatsbyjs`,
     },
