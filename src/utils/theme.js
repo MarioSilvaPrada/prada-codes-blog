@@ -1,4 +1,5 @@
-const theme = {
+
+export const theme = {
   fontSize: {
     small: '.8rem',
     medium: '1rem',
@@ -19,5 +20,3 @@ const theme = {
     header: '#dd2c00'
   }
 };
-
-export default theme;

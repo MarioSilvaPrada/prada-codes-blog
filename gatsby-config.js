@@ -6,7 +6,7 @@ module.exports = {
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
     siteUrl: `https://prada-codes.netlify.app/`,
     social: {
-      twitter: `gatsbyjs`,
+      twitter: `MarioSilvaPrada`,
     },
   },
   plugins: [
