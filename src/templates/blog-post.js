@@ -5,8 +5,9 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Bio from '../components/bio';
 import Layout from '../components/Layout/layout';
 import SEO from '../components/seo';
-import { rhythm, scale } from '../utils/typography';
-import { TitleWrapper } from './blog-post.styled';
+import { rhythm } from '../utils/typography';
+import { TitleWrapper, Home, Date } from './blog-post.styled';
+import { FiHome } from 'react-icons/fi';
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -20,20 +21,19 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+
         <TitleWrapper>
           <h1>{post.frontmatter.title}</h1>
-          <p>Home</p>
+          <Link to={'/'}>
+            <Home>
+              <FiHome size={15} style={{ marginRight: '.5rem' }} />
+              Home
+            </Home>
+          </Link>
         </TitleWrapper>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1)
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
+
+        <Date>{post.frontmatter.date}</Date>
+
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{

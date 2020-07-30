@@ -19,4 +19,4 @@ export const Icon = styled.a`
 
 `;
 
-export const Copy = styled.p`font-size: ${({ theme }) => theme.fontSize.small};`;
+export const Copy = styled.span`font-size: ${({ theme }) => theme.fontSize.small};`;

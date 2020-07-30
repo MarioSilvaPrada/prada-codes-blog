@@ -5,47 +5,31 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
-import styled from "styled-components"
-
-import { rhythm } from "../utils/typography"
+import React from 'react';
+import { StaticQuery, graphql } from 'gatsby';
+import styled from 'styled-components';
 
 function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
-      render={data => {
-        const { author, social } = data.site.siteMetadata
+      render={(data) => {
         return (
           <Container>
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
             <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
-              </a>
+              Hey, I&apos;m{' '}
+              <ExternalLink href="https://mariosilvaprada.com/" target="blank">
+                Mário Prada
+              </ExternalLink>
+              . Welcome to my internet corner where I write about topics related to Javascript. Some
+              of them I&apos;m comfortable with, and others not so much but that&apos;s why I want
+              to confront them. Feel yourself at home.
             </p>
           </Container>
-        )
+        );
       }}
     />
-  )
+  );
 }
 
 const bioQuery = graphql`
@@ -66,10 +50,13 @@ const bioQuery = graphql`
       }
     }
   }
-`
+`;
 
 const Container = styled.div`
   display: flex;
-`
+  font-size: ${({ theme }) => theme.fontSize.small};
+`;
 
-export default Bio
+const ExternalLink = styled.a`border-bottom: 1px dotted;`;
+
+export default Bio;
