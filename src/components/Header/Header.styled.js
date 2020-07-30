@@ -7,4 +7,8 @@ export const Header = styled.div`
   margin-bottom: 2rem;
 `;
 
-export const Title = styled.h1`font-size: ${({ theme }) => theme.fontSize.big};`;
+export const Title = styled.h1`
+  font-size: ${({ theme }) => theme.fontSize.big};
+  margin-top: 0;
+  margin-bottom: 0;
+`;
