@@ -15,8 +15,9 @@ const getTheme = (isLight, theme) => `
     }
 
     a {
-        text-decoration: none;
+        box-shadow: none;
         color: ${isLight ? theme.light.color : theme.dark.color};
+        transition: .5s;
       }
 
    .line {
@@ -35,6 +36,7 @@ const getTheme = (isLight, theme) => `
       transition: .5s;
     }
   `;
+  
 
 export const Container = styled.div`
   min-height: 100vh;
