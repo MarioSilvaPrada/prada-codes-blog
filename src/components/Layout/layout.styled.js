@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const getTheme = (isLight, theme) => `
     background: ${isLight ? theme.light.background : theme.dark.background};
     color: ${isLight ? theme.light.color : theme.dark.color};
-
+  
     h1,
     h2,
     h3,
