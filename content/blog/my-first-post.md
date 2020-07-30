@@ -6,26 +6,24 @@ description: first blog prada codes
 ---
 # Title
 
-**Point 1
-**Point 2
+**Point 1**
+Point 2
 
 **bold text**
+
 > blockquote - blal alala
 
 1. First item
 2. Second item
 3. Third item
 
-- First item
-- Second item
-- Third item
+* First item
+* Second item
+* Third item
 
-`console.log('teste')`
----
-
+## `console.log('teste')`
 
 [Google](https://www.google.com)
-
 
 ```jsx
 const App = () => (
@@ -33,19 +31,19 @@ const App = () => (
 )
 ```
 
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-	```
+```json
 {
   "firstName": "John",
   "lastName": "Smith",
   "age": 25
 }
 ```
+
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
@@ -55,11 +53,6 @@ term
 
 ~~The world is flat.~~
 
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-
-
-
+* Write the press release
+* Update the website
+* Contact the media
