@@ -3,7 +3,8 @@ import Header from '../Header/Header';
 import { rhythm } from '../../utils/typography';
 import { Container } from './layout.styled';
 import Footer from '../Footer';
-import theme from '../../utils/theme';
+import { theme } from '../../utils/theme';
+import { ThemeProvider } from 'styled-components';
 
 const Layout = ({ children }) => {
   const [ isLightMode, setIsLightMode ] = useState(false);
