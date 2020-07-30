@@ -5,10 +5,10 @@ import * as S from './Header.styled';
 const Header = ({ isLightMode, setIsLightMode }) => (
   <S.Header>
     <S.Title>
-      Why does it work?
+      Prada Codes
       {' '}
       <span role="img" aria-label="poo">
-        🤷
+        ✌️
       </span>
     </S.Title>
     <Switch checked={isLightMode} onChange={() => setIsLightMode(!isLightMode)} />
