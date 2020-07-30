@@ -39,7 +39,7 @@ const App = () => (
 | Header | Title |
 | Paragraph | Text |
 
-	```
+```
 {
   "firstName": "John",
   "lastName": "Smith",
