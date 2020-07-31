@@ -11,7 +11,6 @@ const getTheme = (isLight, theme) => css`
   h5,
   h6 {
     color: ${isLight ? theme.light.header : theme.dark.header};
-    margin-top: 0;
   }
 
   .line {
