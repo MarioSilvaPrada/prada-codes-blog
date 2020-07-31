@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
+    title: `Prada Codes`,
     author: `Mário Prada`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    description: `A place where I talk about Javascript`,
     siteUrl: `https://prada-codes.netlify.app/`,
     social: {
       twitter: `MarioSilvaPrada`,
@@ -65,7 +65,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: "UA-140735729-2",
       },
     },
     {
@@ -78,7 +78,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/pin.png`,
       },
     },
     {
