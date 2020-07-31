@@ -12,3 +12,5 @@ In order to make the most out of this tutorial, you must be knowledgeable about 
 Regarding hardware, you can use any laptop/PC that runs rather IOS, Windows or Linux, but be aware that if you want to see your mobile app coming life in your iPhone (physical or virtual) you really need to run your code on a Mac.
 
 Choose your favorite IDE (mine is [VSCode](https://code.visualstudio.com/)) and you are ready to go!
+
+![Image](gatsby-logo.png)
