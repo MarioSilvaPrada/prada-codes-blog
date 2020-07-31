@@ -13,4 +13,4 @@ Regarding hardware, you can use any laptop/PC that runs rather IOS, Windows or L
 
 Choose your favorite IDE (mine is [VSCode](https://code.visualstudio.com/)) and you are ready to go!
 
-![Image](gatsby-logo.png)
+![Image](gatsby-icon.png)
