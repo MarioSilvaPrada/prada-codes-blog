@@ -37,7 +37,7 @@ class BlogPostTemplate extends React.Component {
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
-            marginBottom: rhythm(1)
+            marginBottom: rhythm(1),
           }}
         />
         <Bio />
@@ -54,7 +54,7 @@ class BlogPostTemplate extends React.Component {
           <li>
             {previous && (
               <Link to={`/blog${previous.fields.slug}`} rel="prev">
-                ← {previous.frontmatter.title}
+                ← {previous.frontmatter.title} ola
               </Link>
             )}
           </li>

@@ -8,7 +8,7 @@ const Header = ({ isLightMode, setIsLightMode }) => (
       Prada Codes
       {' '}
       <span role="img" aria-label="poo">
-        ✌️
+        📌
       </span>
     </S.Title>
     <Switch checked={isLightMode} onChange={() => setIsLightMode(!isLightMode)} />

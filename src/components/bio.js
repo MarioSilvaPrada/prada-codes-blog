@@ -17,12 +17,12 @@ function Bio() {
         return (
           <Container>
             <p>
-              Hey, I&apos;m{' '}
+              Hey, I'm{' '}
               <ExternalLink href="https://mariosilvaprada.com/" target="blank">
                 Mário Prada
               </ExternalLink>
               . Welcome to my internet corner where I write about topics related to Javascript. Some
-              of them I&apos;m comfortable with, and others not so much but that&apos;s why I want
+              of them I'm comfortable with, and others not so much but tha's why I want
               to confront them. Feel yourself at home.
             </p>
           </Container>
