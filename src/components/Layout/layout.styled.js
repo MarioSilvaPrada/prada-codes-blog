@@ -19,7 +19,6 @@ const getTheme = (isLight, theme) => css`
   }
 
   a {
-    box-shadow: none;
     color: inherit;
   }
 

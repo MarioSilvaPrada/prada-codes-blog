@@ -16,7 +16,7 @@ export const Icon = styled.a`
   font-size: ${({ theme }) => theme.fontSize.big};
   margin-right: .7rem;
   cursor: pointer;
-
+  box-shadow: none;
 `;
 
 export const Copy = styled.span`font-size: ${({ theme }) => theme.fontSize.small};`;

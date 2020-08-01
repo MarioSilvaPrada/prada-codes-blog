@@ -22,7 +22,7 @@ class BlogPostTemplate extends React.Component {
 
         <TitleWrapper>
           <h1 style={{ marginTop: 0 }}>{post.frontmatter.title}</h1>
-          <Link to={'/'}>
+          <Link to={'/'} style={{ boxShadow: 'none' }}>
             <Home>
               <FiHome size={15} style={{ marginRight: '.5rem' }} />
               Home

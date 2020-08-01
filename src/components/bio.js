@@ -18,9 +18,9 @@ function Bio() {
           <Container>
             <p>
               Hey, I'm{' '}
-              <ExternalLink href="https://mariosilvaprada.com/" target="blank">
+              <a href="https://mariosilvaprada.com/" target="blank">
                 Mário Prada
-              </ExternalLink>
+              </a>
               . Welcome to my internet corner where I write about topics related to Javascript. Some
               of them I'm comfortable with, and others not so much but tha's why I want
               to confront them. Feel yourself at home.
@@ -56,7 +56,5 @@ const Container = styled.div`
   display: flex;
   font-size: ${({ theme }) => theme.fontSize.small};
 `;
-
-const ExternalLink = styled.a`border-bottom: 1px dotted;`;
 
 export default Bio;
