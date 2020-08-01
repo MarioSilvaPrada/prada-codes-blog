@@ -6,11 +6,23 @@ description: Write your first mobile app with React Native
 ---
 In this tutorial, we are going through the basics so you start developing your own mobile apps and also understand what makes React Native such a powerful framework.
 
-### Prerequisites required
+### Prerequisites 
 In order to make the most out of this tutorial, you must be knowledgeable about React and JavaScript. Even though the code that you'll see here is nothing too complex, it's important to have some basic understandings with Javascript language.
 
-Regarding hardware, you can use any laptop/PC that runs rather IOS, Windows or Linux, but be aware that if you want to see your mobile app coming life in your iPhone (physical or virtual) you really need to run your code on a Mac.
+Regarding hardware, you can use any laptop/PC that runs rather IOS, Windows or Linux, but be aware that if you want to see your mobile app coming to life in your iPhone (physical or virtual) you really need to run your code on a Mac.
 
 Choose your favorite IDE (mine is [VSCode](https://code.visualstudio.com/)) and you are ready to go!
 
-![Image](./great2.jpg)
+### Why React Native?
+
+### Environment Setup
+
+### Folder structure
+
+### Styling
+
+### Navigation
+
+### Animation
+
+
