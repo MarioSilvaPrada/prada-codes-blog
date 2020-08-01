@@ -18,8 +18,10 @@ Well, I think that's a fair question. What makes React Native such a famous fram
 
 Let's see some benefits:
 - #### Is Cross-Platform
+
 With React Native you can 
 - #### Reusable code
+
 If you worked with React before, all the expertised that you gained can be used in React Native as well.
 
 > Learn once, write anywhere.
