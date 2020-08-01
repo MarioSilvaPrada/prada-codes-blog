@@ -14,6 +14,55 @@ Regarding hardware, you can use any laptop/PC that runs rather IOS, Windows or L
 Choose your favorite IDE (mine is [VSCode](https://code.visualstudio.com/)) and you are ready to go!
 
 ### Why React Native?
+Well, I think that's a fair question. What makes React Native such a famous framework for developing mobile applications? Why some developers/companies use React Native instead of native languages like [Swift](https://developer.apple.com/swift/) or [Java](https://docs.oracle.com/javase/7/docs/technotes/guides/language/)?
+
+Let's see some benefits:
+- #### Is Cross-Platform
+With React Native you can 
+- #### Reusable code
+If you worked with React before, all the expertised that you gained can be used in React Native as well.
+
+> Learn once, write anywhere.
+
+React and React Native share the same logic, where you build your app by creating smaller components and use them the way you want it. The only difference (is a big difference I know) is that while in React you are running your code in the browser, in React Native you will run it in a completely different environment: Mobile. 
+
+Because of this environment difference, you are not able to manipulate the DOM because there is no DOM! So instead of writing:
+
+```jsx
+import React from 'react';
+
+const Greetings = () => {
+  return(
+   <div>
+      <p>Hello there! 👋</p>
+   </div>
+  )
+}
+
+export default Greetings
+```
+
+You should use tags which the mobile environment can understand:
+
+```jsx
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const Greetings = () => {
+  return(
+   <View>
+      <Text>Hello there! 👋</Text>
+   </View>
+  )
+}
+
+export default Greetings
+```
+
+
+ 
+- #### Big community
+
 
 ### Environment Setup
 
