@@ -22,13 +22,13 @@ Let's see some benefits:
 With React Native you can 
 - #### Reusable code
 
-If you worked with React before, all the expertised that you gained can be used in React Native as well.
+If you worked with React before, all the expertise that you gained can be applied in React Native as well.
 
 > Learn once, write anywhere.
 
 React and React Native share the same logic, where you build your app by creating smaller components and use them the way you want it. The only difference (is a big difference I know) is that while in React you are running your code in the browser, in React Native you will run it in a completely different environment: Mobile. 
 
-Because of this environment difference, you are not able to manipulate the DOM because there is no DOM! So instead of writing:
+Because of this environment difference, you are not able to manipulate the DOM because (guess what) there is no DOM! So instead of writing:
 
 ```jsx
 import React from 'react';
@@ -44,7 +44,7 @@ const Greetings = () => {
 export default Greetings
 ```
 
-You should use tags which the mobile environment can understand:
+You must use tags that our mobile environment can understand:
 
 ```jsx
 import React from 'react';
@@ -60,6 +60,10 @@ const Greetings = () => {
 
 export default Greetings
 ```
+
+In the example above `<View>` creates a new division on your screen while `<Text>` is used when you want to render text[^1]
+
+[^1]: In React Native there is no header tags like h1, h2, h3.. so what you can do is to render your content in a Text tag and styling it accordingly.
 
 
  
