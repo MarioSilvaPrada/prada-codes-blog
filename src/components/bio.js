@@ -21,9 +21,7 @@ function Bio() {
               <a href="https://mariosilvaprada.com/" target="blank">
                 Mário Prada
               </a>
-              . Welcome to my internet corner where I write about topics related to Javascript. Some
-              of them I'm comfortable with, and others not so much but tha's why I want
-              to confront them. Feel yourself at home.
+              . Welcome to my internet corner where I write about topics related to Javascript.  . Feel yourself at home.
             </p>
           </Container>
         );
