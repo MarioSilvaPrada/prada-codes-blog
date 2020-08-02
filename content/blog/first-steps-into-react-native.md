@@ -17,10 +17,10 @@ Choose your favorite IDE (mine is [VSCode](https://code.visualstudio.com/)) and 
 Well, I think that's a fair question. What makes React Native such a famous framework for developing mobile applications? Why some developers/companies use React Native instead of native languages like [Swift](https://developer.apple.com/swift/) or [Java](https://docs.oracle.com/javase/7/docs/technotes/guides/language/)?
 
 Let's see some benefits:
-1. #### Is Cross-Platform
+- #### Is Cross-Platform
 
 With React Native you can 
-2. #### Reusable code
+- #### Reusable code
 
 If you worked with React before, all the expertise that you gained can be applied in React Native as well.
 
@@ -68,7 +68,7 @@ In the example above `<View>` creates a new division on your screen while `<Text
 If you are curious about all components that you can use in React Native, [take a look](https://reactnative.dev/docs/components-and-apis).
 
  
-3. #### Big community
+- #### Big community
 
 
 ### Environment Setup
