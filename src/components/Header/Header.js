@@ -5,13 +5,12 @@ import * as S from './Header.styled';
 const Header = ({ isLightMode, setIsLightMode }) => (
   <S.Header>
     <S.Title>
-      Prada Codes
-      {' '}
+      Prada Codes{' '}
       <span role="img" aria-label="poo">
         📌
       </span>
     </S.Title>
-    <Switch checked={isLightMode} onChange={() => setIsLightMode(!isLightMode)} />
+    <Switch checked={isLightMode} onChange={setIsLightMode} />
   </S.Header>
 );
 
