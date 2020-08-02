@@ -65,7 +65,7 @@ In the example above `<View>` creates a new division on your screen while `<Text
 
 [^1]: In React Native there is no header tags like h1, h2, h3... so what you can do is to render your content in a Text tag and styling it accordingly.
 
-If you are curious about all components that you can use in React Native, [take a look](https://reactnative.dev/docs/components-and-apis){:target="_blank"}.
+If you are curious about all components that you can use in React Native, [take a look](https://reactnative.dev/docs/components-and-apis).
 
 
 
