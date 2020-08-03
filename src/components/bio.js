@@ -23,7 +23,7 @@ function Bio() {
               </a>
               . Welcome to my internet corner where I write about topics related to Javascript and
               React. More than writing, I do like to code, so you're going to see a lot of snippets
-              to support my examples. If you're a tech enthusiast like me, feel free reach me out.
+              to support my examples. If you're a tech enthusiast like me, feel free to reach me out.
               Feel yourself at home.
             </p>
           </Container>
