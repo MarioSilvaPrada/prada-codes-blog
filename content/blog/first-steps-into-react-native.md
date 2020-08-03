@@ -80,9 +80,16 @@ According to [Jetbrains](https://www.jetbrains.com/lp/devecosystem-2020/javascri
 
 As you can imagine, it's a huge advantage when you work with technology with a solid community behind. You're going to need assistance every time you're stuck in some kind of bug, and if you are able to find your solution on the first Google's results, your app progress will be much faster.
 
-
-
 ### Environment Setup
+
+Okay, so let's get our hands dirty and start. The first thing you need to do in order to build your apps in React Native is to set up your environment. 
+
+React Native gives you two options to start:
+* Expo CLI - If you are new to mobile development, they suggest you to install this tool. Basically, Expo is a set of tools built around React Native which allows you to create mobile apps very fast and you just need to have Node.js installed on your laptop.
+
+* React Native CLI - For this one, you need to install XCode and Android Studio, which are the software to develop for IOS and Android, respectively. In case you want to build just for one OS you can install only that integrated development environment.
+
+For this tutorial, we're going to choose the second option.
 
 ### Folder structure
 
