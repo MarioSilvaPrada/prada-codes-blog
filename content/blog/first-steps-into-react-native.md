@@ -91,7 +91,7 @@ React Native gives you two options to start:
 
 For this tutorial, we're going to choose the second option.
 
-React Native docs have an awesome step by step guide, to setting up your environment and for that reason, I won't try to improve that explanation. You can access it [here](https://reactnative.dev/docs/environment-setup).
+React Native docs have an awesome step by step guide, to setting up your environment and for that reason, I won't try to improve that explanation. You can access it [here](https://reactnative.dev/docs/environment-setup) and follow the instructions:
 
 1. Choose "React Native CLI Quickstart"
 2. Choose your Development OS - if you are on a Windows, Linux or a Mac.
