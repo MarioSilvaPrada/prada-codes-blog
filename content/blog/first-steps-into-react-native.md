@@ -19,6 +19,10 @@ Well, I think that's a fair question. What makes React Native such a famous fram
 Let's see some benefits:
 - #### Is Cross-Platform
 
+One of the biggest advantages of developing with this framework is that allows you to create a mobile app for both IOS and Android with the same code base.
+
+This means that if you are a company and you want to develop for both Operations Systems(OS), instead of hiring a team for each OS, you can now hire one team to do the work. You'll save not just money but also time.
+
 With React Native you can 
 - #### Reusable code
 
@@ -74,7 +78,9 @@ According to [Jetbrains](https://www.jetbrains.com/lp/devecosystem-2020/javascri
 
 ![top frameworks/libraries](top_frameworks.png)
 
-As you can imagine, it's really important to work in technology with a solid community behind since you're going to need assistance every time you'll stick in some kind of bug.
+As you can imagine, it's a huge advantage when you work with technology with a solid community behind. You're going to need assistance every time you're stuck in some kind of bug, and if you are able to find your solution on the first Google's results, your app progress will be much faster.
+
+
 
 ### Environment Setup
 
