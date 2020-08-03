@@ -44,7 +44,7 @@ const Greetings = () => {
 export default Greetings
 ```
 
-You must use tags that our mobile environment can understand:
+You must use components that our mobile environment can understand:
 
 ```jsx
 import React from 'react';
@@ -65,11 +65,12 @@ In the example above `<View>` creates a new division on your screen while `<Text
 
 [^1]: In React Native there is no header tags like h1, h2, h3... so what you can do is to render your content in a Text tag and styling it accordingly.
 
-If you are curious about all components that you can use in React Native, [take a look](https://reactnative.dev/docs/components-and-apis).
+If you are curious about all components that  React Native offers, [take a look](https://reactnative.dev/docs/components-and-apis).
 
  
 - #### Big community
 
+According to [Jetbrains](https://www.jetbrains.com/lp/devecosystem-2020/javascript/), React is the library most used in Javascript ecosystem 
 
 ### Environment Setup
 
