@@ -72,7 +72,7 @@ If you are curious about all components that  React Native offers, [take a look]
 
 According to [Jetbrains](https://www.jetbrains.com/lp/devecosystem-2020/javascript/), React is the library most used, in Javascript ecosystem.
 
-![top frameworks/libraries](top_framework.jpg)
+![top frameworks/libraries](top_frameworks.png =100x20)
 
 ### Environment Setup
 
