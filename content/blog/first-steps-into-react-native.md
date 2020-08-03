@@ -91,6 +91,17 @@ React Native gives you two options to start:
 
 For this tutorial, we're going to choose the second option.
 
+React Native docs have an awesome step by step guide, to setting up your environment and for that reason, I won't try to improve that explanation. You can access it [here](https://reactnative.dev/docs/environment-setup).
+
+1. Choose "React Native CLI Quickstart"
+2. Choose your Development OS - if you are on a Windows, Linux or a Mac.
+3. Choose your Target OS - Do you want to develop for Android or IOS? If you want both, you need to follow both instructions.
+
+It's a lot of steps but the good thing is that you just need to do it once.
+
+After you have your environment ready, you can now start creating your first app!
+
+
 ### Folder structure
 
 ### Styling
