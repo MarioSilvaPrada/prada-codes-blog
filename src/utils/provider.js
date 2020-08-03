@@ -1,9 +1,14 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
-export const myContext = React.createContext();
+export const myContext = React.createContext(defaultState);
+
+const defaultState = {
+  isLightMode: true,
+  changeTheme: () => {}
+};
 
 const Provider = (props) => {
   const [ isLightMode, setIsLightMode ] = useLocalStorage('isLightMode', true);
