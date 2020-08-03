@@ -76,7 +76,7 @@ If you are curious about all components that  React Native offers, [take a look]
 
 According to [Jetbrains](https://www.jetbrains.com/lp/devecosystem-2020/javascript/), React is the library most used, in Javascript ecosystem.
 
-![top frameworks/libraries](./top_frameworks.png)
+![top frameworks/libraries](top_frameworks.png)
 
 As you can imagine, it's a huge advantage when you work with technology with a solid community behind. You're going to need assistance every time you're stuck in some kind of bug, and if you are able to find your solution on the first Google's results, your app progress will be much faster.
 
@@ -99,7 +99,7 @@ React Native docs have an awesome step by step guide, to setting up your environ
 
 It's a lot of steps but the good thing is that you just need to do it once.
 
-After you have your environment ready, you can now start creating your first app!
+After you have your environment ready, you can now start creating your first app!!
 
 
 ### Folder structure
