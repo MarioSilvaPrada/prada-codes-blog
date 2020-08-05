@@ -14,14 +14,16 @@ const Provider = (props) => {
   const [ isLightMode, setIsLightMode ] = useLocalStorage('isLightMode', true);
 
   return (
-    <myContext.Provider
-      value={{
-        isLightMode,
-        changeTheme: () => setIsLightMode(!isLightMode)
-      }}
-    >
-      <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-    </myContext.Provider>
+    <ThemeProvider theme={theme}>
+      <myContext.Provider
+        value={{
+          isLightMode,
+          changeTheme: () => setIsLightMode(!isLightMode)
+        }}
+      >
+        {props.children}
+      </myContext.Provider>
+    </ThemeProvider>
   );
 };
 
