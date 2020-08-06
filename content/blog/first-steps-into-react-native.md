@@ -78,7 +78,7 @@ According to [Jetbrains](https://www.jetbrains.com/lp/devecosystem-2020/javascri
 
 ![top frameworks/libraries](./top_frameworks.png)
 
-As you can imagine, it's a huge advantage when you work with technology with a solid community behind. You're going to need assistance every time you're stuck in some kind of bug, and if you are able to find your solution on the first Google's results, your app progress will be much faster.
+As you can imagine, it's a huge advantage when you work with technology with a solid community behind. You're going to need assistance every time you're stuck in some kind of bug, and if you are able to find your solution on the first Google's results, your progress will be much faster.
 
 ### Environment Setup
 
