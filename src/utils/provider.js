@@ -1,6 +1,4 @@
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
-import { theme } from './theme';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 const defaultState = {
@@ -25,8 +23,4 @@ const Provider = (props) => {
   );
 };
 
-export default ({ element }) => (
-  <ThemeProvider theme={theme}>
-    <Provider>{element}</Provider>
-  </ThemeProvider>
-);
+export default ({ element }) => <Provider>{element}</Provider>;
