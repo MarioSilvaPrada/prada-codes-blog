@@ -85,7 +85,7 @@ As you can imagine, it's a huge advantage when you work with technology with a s
 Okay, so let's get our hands dirty and start. The first thing you need to do in order to build your apps in React Native is to set up your environment. 
 
 React Native gives you two options to start:
-* Expo CLI - If you are new to mobile development, they suggest you to install this tool. Basically, Expo is a set of tools built around React Native which allows you to create mobile apps very fast and you just need to have Node.js installed on your laptop.
+* Expo CLI - If you are new to mobile development, they suggest you install this tool. Basically, Expo is a set of tools built around React Native which allows you to create mobile apps very fast and you just need to have Node.js installed on your laptop.
 
 * React Native CLI - For this one, you need to install XCode and Android Studio, which are the software to develop for IOS and Android, respectively. In case you want to build just for one OS you can install only that integrated development environment.
 
@@ -94,7 +94,7 @@ For this tutorial, we're going to choose the second option.
 React Native docs have an awesome step by step guide, to setting up your environment and for that reason, I won't try to improve that explanation. You can access it [here](https://reactnative.dev/docs/environment-setup) and follow the instructions:
 
 1. Choose "React Native CLI Quickstart"
-2. Choose your Development OS - if you are on a Windows, Linux or a Mac.
+2. Choose your Development OS - if you are on a Windows, Linux, or a Mac.
 3. Choose your Target OS - Do you want to develop for Android or IOS? If you want both, you need to follow both instructions.
 
 It's a lot of steps but the good thing is that you just need to do it once.
