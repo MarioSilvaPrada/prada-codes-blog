@@ -104,6 +104,13 @@ After you have your environment ready, you can now start creating your first app
 
 ### Folder structure
 
+Every time you want to create an app you need to run on your command terminal:
+
+`npm react-native init nameOfMyApp`
+
+Where "nameOfMyApp" is the name that you want to give to your project.
+
+
 ### Styling
 
 ### Navigation
