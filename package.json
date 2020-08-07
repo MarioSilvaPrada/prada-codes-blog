@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
+    "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "2.24.7",
