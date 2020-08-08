@@ -99,7 +99,7 @@ React Native docs have an awesome step by step guide, to setting up your environ
 
 It's a lot of steps but the good thing is that you just need to do it once.
 
-After you have your environment ready, you can now start creating your first app!!
+After you have your environment ready, you can now start creating your first app
 
 
 ### Folder structure
@@ -108,7 +108,7 @@ Every time you want to create an app you need to run on your command terminal:
 
 `npm react-native init nameOfMyApp`
 
-Where "nameOfMyApp" is the name that you want to give to your project.!!
+Where "nameOfMyApp" is the name that you want to give to your project.
 
 ![folders](./folders.png)
 
