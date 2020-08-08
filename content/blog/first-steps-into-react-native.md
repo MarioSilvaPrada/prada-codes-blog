@@ -111,6 +111,8 @@ Every time you want to create an app you need to run on your command terminal:
 Where "nameOfMyApp" is the name that you want to give to your project.
 
 
+
+
 ### Styling
 
 ### Navigation
