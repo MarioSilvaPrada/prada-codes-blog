@@ -108,12 +108,9 @@ Every time you want to create an app you need to run on your command terminal:
 
 `npm react-native init nameOfMyApp`
 
-Where "nameOfMyApp" is the name that you want to give to your project.!!
+Where "nameOfMyApp" is the name that you want to give to your project.
 
 ![folders](./folders.png)
-
-
-
 
 ### Styling
 
