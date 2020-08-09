@@ -141,7 +141,7 @@ import { styles } from '../styles/Home.styled';
 const Home = () => {
    return (
     <SafeAreaView style={styles.container}>
-      <Text style={[ styles.text, { opacity: opacityValue } ]}>
+      <Text style={ styles.text }>
         This is the Home Page
       </Text>
     </SafeAreaView>
@@ -171,6 +171,17 @@ export const styles = StyleSheet.create({
   },
 });
 ```
+
+React Native offers a great way to create a style object with [StyleSheet](https://reactnative.dev/docs/stylesheet). StyleSheet is an abstraction similar to CSS StyleSheets. Each key on this object is responsible to style a different element.
+
+In our case, we created a StyleSheet with two keys: "container" and "text"
+
+To use it in *Home.js*, we need to import as we see on the third line of code.
+
+`import { styles } from '../styles/Home.styled';`
+
+Now, we can specify where we want to apply our style by using `styles.` and the name of our styled object's key.
+
 
 
 ### Navigation
