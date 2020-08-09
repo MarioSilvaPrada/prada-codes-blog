@@ -117,10 +117,12 @@ There are several ways to structure this *src folder*, but for this project, we'
 - Components: This folder is where we place all small components, so you can reuse them on your screens.
 - Navigation: Responsible to manage navigation features.
 - Screens: Manage all screens of your app.
-- Styles: Here, we'll have the styling responsible to style our components and screens[^2].
+- Styles: Here, we'll have the styling responsible to style our components and screens [^2].
 
-[^2]: test
+[^2]: Either you can create a global style folder where you manage the entire style of your app, or you can create an individual style file for each of your components/screen. This will depend on how you like to structure your application and also the size of it. If you want to create a more complex app, with a lot of components, is advisable to have a style file for each, in order to avoid end it up with a huge global style file.
 
+In the end, you'll have something like the image below:
+ 
 ![folders-inside-src](./folders.png)
 
 
