@@ -67,7 +67,7 @@ export default Greetings
 
 In the example above `<View>` creates a new division on your screen while `<Text>` is used when you want to render text [^1].
 
-[^1]: In React Native there is no header tags like h1, h2, h3... so what you can do is to render your content in a Text tag and styling it accordingly.
+[^1]: In React Native there are no header tags like h1, h2, h3... so what you can do is to render your content in a Text tag and styling it accordingly.
 
 If you are curious about all components that  React Native offers, [take a look](https://reactnative.dev/docs/components-and-apis).
 
@@ -117,7 +117,9 @@ There are several ways to structure this *src folder*, but for this project, we'
 - Components: This folder is where we place all small components, so you can reuse them on your screens.
 - Navigation: Responsible to manage navigation features.
 - Screens: Manage all screens of your app.
-- Styles: Here, we'll have the styling responsible to style our components and screens.
+- Styles: Here, we'll have the styling responsible to style our components and screens[^2].
+
+[^2]: test
 
 ![folders-inside-src](./folders.png)
 
