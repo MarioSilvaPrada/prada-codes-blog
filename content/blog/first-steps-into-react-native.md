@@ -153,8 +153,9 @@ export default Home;
 
 And now, let's create our style file:
 
-*Home.styled.js*
+
 ```js
+*Home.styled.js*
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
