@@ -141,7 +141,7 @@ import { styles } from '../styles/Home.styled';
 const Home = () => {
    return (
     <SafeAreaView style={styles.container}>
-      <Text style={ styles.text }>
+      <Text style={styles.text}>
         This is the Home Page
       </Text>
     </SafeAreaView>
