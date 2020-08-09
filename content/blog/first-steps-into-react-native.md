@@ -131,6 +131,7 @@ Inside Screens folder, let's start by creating a *Home.js* file, where it's goin
 
 Here is the code to create a simple Home Screen:
 
+*Home.js*
 ```jsx
 import React from 'react';
 import { SafeAreaView, Button } from 'react-native';
@@ -150,6 +151,9 @@ const Home = () => {
 export default Home;
 ```
 
+And now, let's create our style file:
+
+*Home.styled.js*
 ```js
 import { StyleSheet } from 'react-native';
 
