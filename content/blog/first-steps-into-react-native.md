@@ -118,7 +118,6 @@ There are several ways to structure this *src folder*, but for this project, we'
 - Navigation: Responsible to app's navigation structure.
 - Screens: 
 - Styles: 
-
 ![folders-inside-src](./folders.png)
 
 
