@@ -182,8 +182,6 @@ To use it in *Home.js*, we need to import as we see on the third line of code.
 
 Now, we can specify where we want to apply our style by using `styles.` and the name of our styled object's key.
 
-
-
 ### Navigation
 
 ### Animation
