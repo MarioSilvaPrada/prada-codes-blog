@@ -182,6 +182,10 @@ To use it in *Home.js*, we need to import as we see on the third line of code.
 
 Now, we can specify where we want to apply our style by using `styles.` and the name of our styled object's key.
 
+We add a background color to our container, which is the *SafeAreaView* component and also changed the font size, color and alignments to our *Text* component.
+
+As result we have:
+
 ![Home Screen](./homepage.png)
 
 ### Navigation
