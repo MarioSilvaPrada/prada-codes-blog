@@ -133,48 +133,39 @@ Here is the code to create a simple Home Screen:
 
 ```jsx
 import React from 'react';
-import { SafeAreaView, Button, Animated } from 'react-native';
-
-import Header from '../components/Header';
+import { SafeAreaView, Button } from 'react-native';
 
 import { styles } from '../styles/Home.styled';
 
 const Home = () => {
-  // create variable with animated value and set it to 0
-  const opacityValue = new Animated.Value(0);
-
-  // Change animated value to 1 in 1.5 seconds
-  const showText = () => {
-    Animated.timing(opacityValue, {
-      toValue: 1,
-      duration: 1500,
-      useNativeDriver: true,
-    }).start();
-  };
-
-  // Change animated value to 0 in 1.5 seconds
-  const hideText = () => {
-    Animated.timing(opacityValue, {
-      toValue: 0,
-      duration: 1500,
-      useNativeDriver: true,
-    }).start();
-  };
-
-  return (
+   return (
     <SafeAreaView style={styles.container}>
-      <Header title='Home Page' />
-      <Animated.Text style={[ styles.text, { opacity: opacityValue } ]}>
+      <Text style={[ styles.text, { opacity: opacityValue } ]}>
         This is the Home Page
-      </Animated.Text>
-
-      <Button title='Fade in' onPress={showText} />
-      <Button title='Fade out' onPress={hideText} />
+      </Text>
     </SafeAreaView>
   );
 };
 
 export default Home;
+```
+
+```js
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#f5b971',
+    flex: 1,
+  },
+  text: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#d7385e',
+    alignSelf: 'center',
+    marginTop: 300,
+  },
+});
 ```
 
 
