@@ -192,7 +192,7 @@ As result we have this:
 
 In React, to manage the navigation from one page to another one we use React Router.
 
-Well, in React Native we have something similiar that allows us to go from screen A to screen B called [React Navigation](https://reactnavigation.org/)
+Well, in React Native we have something similar that allows us to go from screen A to screen B called [React Navigation](https://reactnavigation.org/)
 
 ### Animation
 
