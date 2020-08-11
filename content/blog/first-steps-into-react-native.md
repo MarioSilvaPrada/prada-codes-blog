@@ -184,7 +184,7 @@ Now, we can specify where we want to apply our style by using `styles.` and the 
 
 We add a background color to our container, which is the *SafeAreaView* component and also changed the font size, color and alignments to our *Text* component.
 
-As result we have this:
+As a result, we have this:
 
 ![Home Screen](./homepage.png)
 
