@@ -194,4 +194,6 @@ As a result, we have this:
 
 While in React you manage navigation between pages by using React Router, in React Native, we have something similar that allows us to go from screen A to screen B called [React Navigation](https://reactnavigation.org/).
 
+The goal of React Navigation is to create a navigation structure in your app.
+
 ### Animation
