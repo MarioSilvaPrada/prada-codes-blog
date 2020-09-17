@@ -206,4 +206,6 @@ and
 
 After installing everything, you are now able to create the navigation structure of your app. 
 
+The first thing
+
 ### Animation
