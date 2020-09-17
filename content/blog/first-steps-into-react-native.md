@@ -204,6 +204,6 @@ and
 
 `npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view`
 
-After installing everything, you are now able to create the navigation structure of you app.
+After installing everything, you are now able to create the navigation structure of your app. 
 
 ### Animation
